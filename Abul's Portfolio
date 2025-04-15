@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abul Hasan A | AI/ML Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #00d1b2;
+      margin-bottom: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.7rem;
+    }
+
+    .project {
+      margin-bottom: 1.5rem;
+    }
+
+    .contact a {
+      color: #00d1b2;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    section {
+      animation: fadeInUp 1s ease forwards;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Abul Hasan A</h1>
+    <p>AI/ML Enthusiast | Python | GPT APIs | Deep Learning</p>
+    <p class="contact">
+      📍 India | ✉️ ah8803021@gmail.com | 📞 6379268482
+      | <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Portfolio</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p>
+      AI/ML enthusiast skilled in Python, GPT APIs, and deep learning. Experienced in building smart solutions like AI assistants, churn predictors, prompt tools, and data annotation projects.
+    </p>
+  </section>
+
+  <section>
+    <h2>Training Experience</h2>
+    <ul>
+      <li><strong>AI/ML Intern (Online)</strong> at Big Bucks Innovation, Chennai (Dec 21, 2024 – Mar 21, 2025)</li>
+      <li>Completed real-world AI/ML mini projects and gained practical experience in tools, algorithms, and workflows.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, SQL, HTML & CSS</li>
+      <li><strong>Tools & Frameworks:</strong> Jupyter Notebook, Google Colab</li>
+      <li><strong>Prompt Engineering:</strong> Custom Prompt Design, ChatGPT 3.5 & 4.0</li>
+      <li><strong>Data Annotation:</strong> Bounding Box, YOLO Format, Labeling & Classification</li>
+      <li><strong>Version Control:</strong> Git & GitHub, VS Code</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <strong>Smart Virtual Hiring Assistant:</strong> AI bot for HR screening using LangChain and GPT-3.5, handling parsing, skill-matching, sentiment analysis, and scoring resumes.
+    </div>
+    <div class="project">
+      <strong>Customer Churn Prediction:</strong> Random Forest model achieving 92% accuracy for telecom churn using Scikit-learn, Pandas, and ROC curve visualizations.
+    </div>
+    <div class="project">
+      <strong>AI Study Buddy:</strong> AI assistant supporting multilingual quizzing in Tamil/English, built using prompt engineering and GPT mock API.
+    </div>
+    <div class="project">
+      <strong>Wildlife Image Annotation:</strong> Labeled 1,000+ images for YOLO-based species detection using LabelImg & Python scripts.
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Natural Language Processing (NLP) Basics - Great Learning</li>
+      <li>ChatGPT Prompt Engineering - DeepLearning.AI</li>
+      <li>Introduction to Data Science - IBM CognitiveClass.ai</li>
+      <li>Power BI - Prep Insta</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in AI & ML (8.20 CGPA)</strong> - St. Joseph’s College of Engineering, 2025</li>
+      <li><strong>Diploma in ECE (93%)</strong> - SRM Valliammai Polytechnic College, 2022</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Abul Hasan A. All rights reserved.
+  </footer>
+</body>
+
+</html>
